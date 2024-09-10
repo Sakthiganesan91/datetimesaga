@@ -16,7 +16,7 @@ const getdayMonthYear = (date, locales, options) => {
   return { date: dateOfMonth, month, year, day };
 };
 
-const getDate = ({
+export const getDate = ({
   locales = "en-US",
   monthFormat = "long",
   weekDayFormat = "long",
@@ -40,5 +40,3 @@ const getDate = ({
     throw new Error(`Error : ${error.message}`);
   }
 };
-
-export default getDate;
