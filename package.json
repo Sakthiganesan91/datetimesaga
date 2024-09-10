@@ -2,10 +2,10 @@
   "name": "datetimesaga",
   "version": "1.0.0",
   "description": "package for formatting date and time",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "datetime",
