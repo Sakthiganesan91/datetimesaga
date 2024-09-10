@@ -1,0 +1,17 @@
+{
+  "name": "datetimesaga",
+  "version": "1.0.0",
+  "description": "package for formatting date and time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "datetime",
+    "date",
+    "time",
+    "formatting"
+  ],
+  "author": "Sakthiganesan",
+  "license": "ISC"
+}
