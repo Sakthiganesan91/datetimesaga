@@ -10,7 +10,7 @@ npm install datetimesaga
 
 ## Usage
 
-import getDate from 'date-formatter';
+import getDate from 'datetimesaga';
 
 const today = getDate();
 console.log(today);
