@@ -1,6 +1,6 @@
 {
   "name": "datetimesaga",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "A JavaScript library for formatting the current date with localization support, returning structured date information including day, month, and year.",
   "type": "module",
   "main": "index.js",
@@ -13,7 +13,10 @@
     "time",
     "formatting"
   ],
-  "git repository": "https://github.com/Sakthiganesan91/datetimesaga/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sakthiganesan91/datetimesaga.git"
+  },
   "author": "Sakthiganesan",
   "license": "ISC"
 }

@@ -26,9 +26,9 @@ Parameters:
 <br/>
 options (Object): An optional object to customize the output.<br/>
 locales (string): A string with a BCP 47 language tag (default: "en-US").<br/>
-monthFormat (string): The format for the month (default: "long"). Options include "numeric", "2-digit", "long", "short", "narrow".<br/>
-weekDayFormat (string): The format for the weekday (default: "long"). Options include "narrow", "short", "long".<br/>
-yearFormat (string): The format for the year (default: "numeric"). Options include "numeric", "2-digit".<br/>
+monthFormat (string): The format for the month (default: "long"). <br/>Options include "numeric", "2-digit", "long", "short", "narrow".<br/>
+weekDayFormat (string): The format for the weekday (default: "long"). <br/>Options include "narrow", "short", "long".<br/>
+yearFormat (string): The format for the year (default: "numeric"). <br/>Options include "numeric", "2-digit".<br/>
 
 Returns:
 
@@ -37,3 +37,24 @@ date: The current date (number).<br/>
 month: The formatted month (string).<br/>
 year: The formatted year (string).<br/>
 day: The formatted day of the week (string).
+
+getTime(options)
+
+<br/>
+This function returns the current time as a formatted string, based on the provided locale and formatting options.
+
+<br/>
+Parameters:
+options (Object): An optional object to customize the output.
+
+<br/>
+locales (string): A string with a BCP 47 language tag (default: "en-US").
+
+<br/>
+timeStyle (string): The format for the time (default: "medium"). 
+<br/>
+Options include "full", "long", "medium", "short".
+
+Returns:
+
+A formatted string representing the current time. If an error occurs, the function returns "N/A".
