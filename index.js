@@ -72,9 +72,3 @@ export const getTime = ({ locales = "en-US", timeStyle = "medium" } = {}) => {
     return "N/A";
   }
 };
-
-const date = getDate();
-console.log(date);
-
-const time = getTime();
-console.log(time);
