@@ -16,6 +16,18 @@ const today = getDate();<br/>
 console.log(today);<br/>
 // Output: { date: 10, month: 'September', year: '2024', day: 'Tuesday' }
 
+import { getTime } from 'datetimesaga';
+
+// Get time in 'en-US' locale with medium style<br/>
+const time = getTime({ locales: 'en-US', timeStyle: 'medium' });<br/>
+console.log(time);<br/>
+// Output: "3:45:30 PM"<br/>
+
+// Get time in 'fr-FR' locale with short style<br/>
+const timeInFrench = getTime({ locales: 'fr-FR', timeStyle: 'short' });<br/>
+console.log(timeInFrench);<br/>
+// Output: "15:45"<br/>
+
 ## API
 
 getDate(options)
