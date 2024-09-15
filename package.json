@@ -1,6 +1,6 @@
 {
   "name": "datetimesaga",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A JavaScript library for formatting the current date with localization support, returning structured date information including day, month, and year.",
   "type": "module",
   "main": "index.js",
